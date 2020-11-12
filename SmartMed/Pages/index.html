@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartMed</title>
+    <link href="../CSS/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="header">
+            <div class="logo-con">
+                <div class="logo-box">
+                    <img src="../Images/health logo.jpg">
+                </div>
+                <div class="name-box">
+                    <h4>SmartMed</h4>
+                </div>
+            </div>
+            <!-- I want to make you readand write.. If you can see this -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="talk.html">Talk to a Doctor</a></li>
+                <li><a href="symptoms.html">Symptoms Checker</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul> 
+            <div>
+
+            </div>   
+        </div>
+        <div class="main">
+            <div class="doctor-con">
+                <img src="../Images/female_doctor_2-removebg-preview (4).png" alt="A Doctor">
+            </div>
+            <div class="health-text">
+                <p>Your Health is your major asset and We are here to take  care of You </p>
+            </div>
+            <div class="login-con">
+                <button>
+                    <a href="login.html">Log in</a>
+                </button>
+            </div>
+            <div class="register-con">
+                <button>
+                    <a href="register.html">Register</a>
+                </button>
+            </div>
+        </div>
+        <div class="help">
+            <div class="help-text">
+                <p>We Help You</p>
+            </div>
+            <div class="onlineDoc-con">
+                <img src="../Images/online-doctor-with-smartphone_23-2148525672.jpg">
+                <div class="onlineDoc-link">
+                    <a href="talk.html">Talk to a Doctor</a>
+                </div>
+            </div>
+            <div class="hospital-con">
+                <img src="../Images/flat-hospital-building-illustration_1344-105.jpg">
+                <div class="hospital-link">
+                    <a href="hospital.html">Find a Hospital</a>
+                </div>
+            </div>
+            <div class="check-con">
+                <img src="../Images/symptomsCheck.jpeg">
+                <div class="check-link">
+                    <a href="symptoms.html">Symptoms Checker</a>
+                </div>
+            </div>
+            <div class="medEdu-con">
+                <img src="../Images/medical education.jpg">
+                <div class="medEdu-link">
+                    <a href="research.html">Get medical Information</a>
+                </div>
+            </div>
+        </div>
+        <div class="partners">
+            <div class="hr1"></div>
+            <div class="our">
+                <div class="partners-title">
+                    <p>Our Partners</p>
+                </div>
+            </div>
+            <div class="hr2"></div>
+            <div class="ministry">
+                <img src="../Images/ministry.jpeg">
+            </div>
+            <div class="scheme">
+                <img src="../Images/scheme.jpeg">
+            </div>
+            <div class="who">
+                <img src="../Images/who.jpg">
+            </div>
+            <div class="redcross">
+                <img src="../Images/redcross.png">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="subscribe">
+                <p>Subscribe to our newsletter</p>
+            </div>
+            <div class="email">
+                <input type="email" name="email" placeholder="     Enter Address">
+            </div>
+            <div class="btn">
+                <button>
+                    <a href="#">Sign Up</a>
+                </button>
+            </div>
+            <div class="follow">
+                <p>follow us @SmartMed</p>
+            </div>
+            <div class="fb-con">
+                <a href="#"><img src="../Images/fb2.jpg"></a>
+            </div>
+            <div class="ig">
+                <a href="#"><img src="../Images/IG-img.jpg"></a>
+            </div>
+            <div class="linkedin">
+                <a href="#"><img src="../Images/linkedIn.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "43924aa8-5208-4f24-9e6f-baf44777026a", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "b574f167-6a3f-4c64-82b0-280ee49f8ea7", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartMed</title>
+    <link href="../CSS/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="header">
+            <div class="logo-con">
+                <div class="logo-box">
+                    <img src="../Images/health logo.jpg">
+                </div>
+                <div class="name-box">
+                    <h4>SmartMed</h4>
+                </div>
+            </div>
+            <!-- I want to make you read and write.. If you can see this -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="talk.html">Talk to a Doctor</a></li>
+                <li><a href="symptoms.html">Symptoms Checker</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul> 
+            <div>
+
+            </div>   
+        </div>
+        <div class="main">
+            <div class="doctor-con">
+                <img src="../Images/female_doctor_2-removebg-preview (4).png" alt="A Doctor">
+            </div>
+            <div class="health-text">
+                <p>Your Health is your major asset and We are here to take  care of You </p>
+            </div>
+            <div class="login-con">
+                <button>
+                    <a href="login.html">Log in</a>
+                </button>
+            </div>
+            <div class="register-con">
+                <button>
+                    <a href="register.html">Register</a>
+                </button>
+            </div>
+        </div>
+        <div class="about">
+            <div class="mission">
+                <h2>Our Mission</h2>
+            </div>
+            <div class="mission-text">
+                <div class="mission-mess">
+                    <p>
+                    It is a long established fact that a reader will be distracted 
+                    by the readable content of a page when looking at its layout.</p>
+                </div>    
+            </div>
+            <div class="vision">
+                <h2>Our Vision</h2>
+            </div>
+            <div class="vision-text">
+                <div class="vision-mess">
+                    <p>It is a long established fact that a reader will be distracted 
+                        by the readable content of a page when looking at its layout. </p>
+                </div>    
+            </div>
+            <div class="values">
+                <h2>Our Values</h2>
+            </div>
+            <div class="values-text">
+                <div class="values-mess">
+                    <p>It is a long established fact that a reader will be distracted
+                         by the readable content of a page when looking at its layout. The point of using 
+                    </p>
+                </div>
+            </div>
+        </div>
+   <!-- <p style="text-align: justify; font-size: 20px; font-style: normal; font-weight: normal;">
+
+    The use of information technologies in the health domain started
+
+     decades ago, nevertheless there are still many issues that need to
+
+      be addressed. Health Recommender Systems (HRSs) constitute a
+
+       promising alternative when it comes to providing tools to
+
+        assist doctors in the diagnosis of diseases, as well as to 
+
+        help patients with recommendations in regards of how to keep
+
+         their wellness. 
+
+         SmartMed website gives insights about methods
+
+          and techniques of diagnosing health conditions with main focus on
+
+          Hypertension and Diabetes.
+
+          It also provides help to different actors in the medical field. 
+
+          Patients get prompt response and diagnosis on their health conditions, health practitioners
+
+          have acces to wide range of research based on lifestyle,social activities and physical health records 
+
+          of the patients.
+         </p> -->
+        </div>
+        <div class="partners">
+            <div class="hr1"></div>
+            <div class="our">
+                <div class="partners-title">
+                    <p>Our Partners</p>
+                </div>
+            </div>
+            <div class="hr2"></div>
+            <div class="ministry">
+                <img src="../Images/ministry.jpeg">
+            </div>
+            <div class="scheme">
+                <img src="../Images/scheme.jpeg">
+            </div>
+            <div class="who">
+                <img src="../Images/who.jpg">
+            </div>
+            <div class="redcross">
+                <img src="../Images/redcross.png">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="subscribe">
+                <p>Subscribe to our newsletter</p>
+            </div>
+            <div class="email">
+                <input type="email" name="email" placeholder="     Enter Address">
+            </div>
+            <div class="btn">
+                <button>
+                    <a href="#">Sign Up</a>
+                </button>
+            </div>
+            <div class="follow">
+                <p>follow us @SmartMed</p>
+            </div>
+            <div class="fb-con">
+                <a href="#"><img src="../Images/fb2.jpg"></a>
+            </div>
+            <div class="ig">
+                <a href="#"><img src="../Images/IG-img.jpg"></a>
+            </div>
+            <div class="linkedin">
+                <a href="#"><img src="../Images/linkedIn.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "43924aa8-5208-4f24-9e6f-baf44777026a", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "b574f167-6a3f-4c64-82b0-280ee49f8ea7", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+    </script>
+</body>
+</html>
